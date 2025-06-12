@@ -1,0 +1,120 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.dashboard-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.dashboard-subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+.section-title {
+  font-size: 1.3rem;
+  margin: 2rem 0 1rem 0;
+}
+.contest-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.contest-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.contest-info {
+  flex: 1;
+}
+.contest-time {
+  color: #888;
+  font-size: 0.95rem;
+}
+.contest-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.2rem 0;
+}
+.contest-platform {
+  color: #555;
+  font-size: 0.98rem;
+}
+.contest-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background: #22223b;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+.contest-btn:hover {
+  background: #4a4e69;
+}
+.contest-logo img {
+  width: 90px;
+  height: 45px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.performance-overview {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.performance-card {
+  flex: 1;
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.performance-title {
+  font-size: 1rem;
+  color: #555;
+}
+.performance-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.performance-desc {
+  color: #888;
+  font-size: 0.95rem;
+}
+.positive {
+  color: #2e9d4b;
+  font-weight: 600;
+}
+.performance-chart {
+  margin-top: 1rem;
+  height: 60px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.performance-bars {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #888;
+} 
